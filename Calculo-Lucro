@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <locale.h>
+#include <stdlib.h>
+
+float calcLucroDist(float p_fab, float por_dist){
+    return p_fab * por_dist / 100;
+}
+
+float calcImp(float p_fab, float por_imp){
+    return p_fab * por_imp / 100;
+}
+
+float calcPreçoF(float p_fab, float v_dist, float v_imp){
+    return p_fab + v_dist + v_imp;
+}
+
+int main (int argc, char *argv[]){
+    setlocale(0,"Portuguese");
+
+    float preçof, porcdist, porcimp, lucrodist, imp, vlrf;
+
+    printf("Insira o preço de fábrica: \n");
+    scanf("%f", &preçof);
+    printf("Insira o percentual de lucro do distribuidor: \n");
+    scanf("%f", &porcdist);
+    printf("Insira o percentual do imoposto: \n");
+    scanf("%f", &porcimp);
+
+    lucrodist = calcLucroDist(preçof, porcdist);
+    imp = calcImp(preçof, porcimp);
+    vlrf = calcPreçoF(preçof, lucrodist, imp);
+
+    printf("Lucro do distribuidor: R$%2.f\n", lucrodist);
+    printf("Impostos: %1.f\n", imp);
+    printf("Valor final: %1.f\n", vlrf);
+    return 0;
+}
