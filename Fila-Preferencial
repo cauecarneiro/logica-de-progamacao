@@ -15,14 +15,7 @@ void main () {
     printf("\nVoce tem %i anos, certo?", idade);
     printf("\nSeja bem vindo ao Banco do Brasil!");
         if (idade>65) {
-                printf ("\n=== ANTENÇAO DIRIJA-SE PARA A FILA PREFERENCIAL ===\n------------------------------------");
+                printf ("\n=== ANTENÃ‡AO DIRIJA-SE PARA A FILA PREFERENCIAL ===\n------------------------------------");
 
-}
-
-
-
-
-
-
-
+    }
 }
