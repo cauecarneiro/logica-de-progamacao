@@ -17,7 +17,7 @@ int main(){
     //Criando e inicializando
     tipo_pessoa pes = {0, 0.0, "Teste"};
 
-    printf("InÌcio-\n");
+    printf("In√≠cio-\n");
     printf("Idade: %i",pes.idade);
     printf("\nPeso: %.2f", pes.nome);
     printf("\nNome: %s", pes.nome);
@@ -26,17 +26,17 @@ int main(){
 
     pes.idade = 33;
     pes.peso = 70.67;
-    strcpy(pes.nome, "Jo„o");
+    strcpy(pes.nome, "Jo√£o");
 
-    printf("\n\nInÌcio-\n");
+    printf("\n\nIn√≠cio-\n");
     printf("Idade: %i",pes.idade);
     printf("\nPeso: %.2f", pes.peso);
     printf("\nNome: %s", pes.nome);
 
 
-    //solicitando incerÁ„o via teclado
+    //solicitando incer√ß√£o via teclado
 
-    printf("\n\nInÌcio-\n");
+    printf("\n\nIn√≠cio-\n");
     printf("Idade: ");
     scanf("%i", &pes.idade);
     printf("Peso: ");
