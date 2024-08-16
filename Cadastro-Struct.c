@@ -20,7 +20,7 @@ int main(){
     int i;
 
     for(i=0;i<TAM;i++){
-        printf("Insira os dados da %dª pessoa\n", i+1);
+        printf("Insira os dados da %dÂª pessoa\n", i+1);
         printf("Nome: ");
         scanf("%50[^\n]", &lista[i].nome);
 
@@ -36,7 +36,7 @@ int main(){
 
     printf("--------Dados de seus clientes--------");
     for(i=0;i<TAM;i++) {
-        printf("\n\n%iª pessoa", i+1);
+        printf("\n\n%iÂª pessoa", i+1);
         printf("\nNome: %s", lista[i].nome);
         printf("\nIdade: %i anos", lista[i].idade);
         printf("\nPeso: %2.fKg", lista[i].peso);
