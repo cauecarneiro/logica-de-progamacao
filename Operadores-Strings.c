@@ -6,7 +6,7 @@
 int main(){
     setlocale(0,"Portuguese");
 
-    char origem[N] = {"Ol· mundo"};
+    char origem[N] = {"Ol√° mundo"};
     char destino[N];
 
     //antes do strcpy
@@ -27,8 +27,8 @@ int main(){
 #define N 50
 int main(){
     setlocale(0,"Portuguese");
-    char s1[N]={"LÛgica de"};
-    char s2[N]={" ProgamaÁ„o"};
+    char s1[N]={"L√≥gica de"};
+    char s2[N]={" Progama√ß√£o"};
 //antes do strcat
     printf("String 1: %s", s1);
     printf("\nString 2:%s\n\n", s2);
