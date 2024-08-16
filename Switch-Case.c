@@ -3,7 +3,7 @@
 int main () {
     setlocale(0,"Portuguese");
     int n;
-        printf("Digite um número: ");
+        printf("Digite um nÃºmero: ");
         scanf("%i", &n);
 
         switch(n){
@@ -16,7 +16,7 @@ int main () {
                 break;
 
             case 3:
-                printf("Terça");
+                printf("TerÃ§a");
                 break;
 
             case 4:
@@ -32,11 +32,11 @@ int main () {
                 break;
 
             case 7:
-                printf("Sábado");
+                printf("SÃ¡bado");
                 break;
 
             default:
-                printf("A semana tem 7 dias, não %i", n);
+                printf("A semana tem 7 dias, nÄƒo %i", n);
                 break;
                 }
             }
