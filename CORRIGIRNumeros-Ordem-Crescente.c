@@ -3,17 +3,17 @@
 void main() {
     setlocale(0,"Portuguese");
     int n1,n2;
-    printf(" Me diga dois números e eu colocarei\n os dois em ordem crescente.");
-    printf("\n\nPrimeiro número: ");
+    printf(" Me diga dois nÃºmeros e eu colocarei\n os dois em ordem crescente.");
+    printf("\n\nPrimeiro nÃºmero: ");
     fflush(stdin);
     scanf("%i", &n1);
-    printf("Segundo número: ");
+    printf("Segundo nÃºmero: ");
     fflush(stdin);
     scanf("%i", &n2);
     if(n1>n2) {
-        printf("Os número em ordem são %i e %i.", n2, n1);
+        printf("Os nÃºmero em ordem sÃ£o %i e %i.", n2, n1);
     } else {
-        printf("Os número em ordem são %i e %i.", n1, n2);
+        printf("Os nÃºmero em ordem sÃ£o %i e %i.", n1, n2);
     }
 
 
@@ -28,14 +28,14 @@ void main() {
 void main() {
     setlocale(0,"Portuguese");
     int n1,n2,n3;
-    printf(" Me diga três números e eu colocarei\n os três em ordem crescente.");
-    printf("\n\nPrimeiro número: ");
+    printf(" Me diga trÃªs nÃºmeros e eu colocarei\n os trÃªs em ordem crescente.");
+    printf("\n\nPrimeiro nÃºmero: ");
     fflush(stdin);
     scanf("%i", &n1);
-    printf("Segundo número: ");
+    printf("Segundo nÃºmero: ");
     fflush(stdin);
     scanf("%i", &n2);
-    printf("Terceiro número: ");
+    printf("Terceiro nÃºmero: ");
     fflush(stdin);
     scanf("%i", &n3);
     if(n1>n2,n3)
