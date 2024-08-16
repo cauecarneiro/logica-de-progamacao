@@ -1,4 +1,4 @@
-//VERS√O COMPLETA
+//VERS√ÉO COMPLETA
 #include <stdio.h>
 #include <locale.h>
 void main(){
@@ -11,12 +11,12 @@ setlocale(0,"Portuguese");
     fflush(stdin);
     scanf("%i", &n2);
     if(n1>n2) {
-        printf("O primeiro È maior: %i", n1);
+        printf("O primeiro √© maior: %i", n1);
     } else {
         if(n1<n2) {
-            printf("O segundo È maior: %i", n2);
+            printf("O segundo √© maior: %i", n2);
         } else {
-            printf("Os dois s„o iguais");
+            printf("Os dois s√£o iguais");
 
         }
 
@@ -25,7 +25,7 @@ setlocale(0,"Portuguese");
 }
 
 
-//VERS√O SIMPLIFICADA (ESLSE IF)
+//VERS√ÉO SIMPLIFICADA (ESLSE IF)
 /*#include <stdio.h>
 #include <locale.h>
 void main(){
@@ -38,11 +38,11 @@ setlocale(0,"Portuguese");
     fflush(stdin);
     scanf("%i", &n2);
     if(n1>n2) {
-        printf("O primeiro È maior: %i", n1);
+        printf("O primeiro √© maior: %i", n1);
     } else if(n1<n2) {
-            printf("O segundo È maior: %i", n2);
+            printf("O segundo √© maior: %i", n2);
         } else {
-            printf("Os dois s„o iguais");
+            printf("Os dois s√£o iguais");
 
         }
 
@@ -52,7 +52,7 @@ setlocale(0,"Portuguese");
 
 
 
-//VERS√O MAIS SIMPLIFICADA
+//VERS√ÉO MAIS SIMPLIFICADA
 /*#include <stdio.h>
 #include <locale.h>
 void main(){
@@ -64,9 +64,9 @@ setlocale(0,"Portuguese");
     printf("Segundo valor: ");
     fflush(stdin);
     scanf("%i", &n2);
-    if(n1>n2) printf("O primeiro È maior: %i", n1);
-    else if (n1<n2) printf("O segundo È maior: %i", n2);
-    else printf("Os dois s„o iguais");
+    if(n1>n2) printf("O primeiro √© maior: %i", n1);
+    else if (n1<n2) printf("O segundo √© maior: %i", n2);
+    else printf("Os dois s√£o iguais");
 }*/
 
 
