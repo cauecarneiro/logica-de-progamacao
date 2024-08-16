@@ -43,12 +43,4 @@ int main(){
     printf("Dados inseridos: \n");
     for(i=0; i<5; i++){
         printf("%i ", v[i]);
-    }
-}*/
-#include <stdio.h>
-int main(){
- char nome;
- printf("Escreva seu nome:");
- gets(nome);
- printf("%s", nome);
-}
+    }*/
