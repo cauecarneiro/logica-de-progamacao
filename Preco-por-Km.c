@@ -4,10 +4,10 @@
 void main () {
 setlocale(0,"Portuguese");
     float d;
-    printf("======= TABELA DE PREÇOS =======");
-    printf("\nViajens até 200 Km\tR$0.50/Km");
+    printf("======= TABELA DE PREÃ‡OS =======");
+    printf("\nViajens atÃ© 200 Km\tR$0.50/Km");
     printf("\nA partir de 200 Km\tR$0.35/Km");
-    printf("\n----------------------------------\nDistância total da viajem, em Km: ");
+    printf("\n----------------------------------\nDistÃ¢ncia total da viajem, em Km: ");
     scanf("%f", &d);
     if(d>200) {
         float d1 = d*0.35;
