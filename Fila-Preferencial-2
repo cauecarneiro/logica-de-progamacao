@@ -11,12 +11,12 @@ void main (){
     int ano = data->tm_year + 1900;
 
     int nasc;
-    printf ("Em que ano vocÍ nasceu? ");
+    printf ("Em que ano voc√™ nasceu? ");
     scanf("%i", &nasc);
     int idade = ano - nasc;
     printf("-------------------------------------------------------\n");
-    printf("VocÍ tem %i anos certo? \nSeja bem vindo ao Banco do Brasil!\n", idade);
-    if (idade >=65) printf("===== !!ATEN«√O DIRIJA-SE PARA A FILA PREFERENCIAL! =====");
+    printf("Voc√™ tem %i anos certo? \nSeja bem vindo ao Banco do Brasil!\n", idade);
+    if (idade >=65) printf("===== !!ATEN√á√ÉO DIRIJA-SE PARA A FILA PREFERENCIAL! =====");
     printf("\n-------------------------------------------------------\n");
 
 
