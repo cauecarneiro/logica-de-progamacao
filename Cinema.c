@@ -10,21 +10,16 @@ void main(){
     int h = data ->tm_hour;
     int m = data ->tm_min;
     float d;
-    printf("============= CINEMA ESTUDONAUTA =============");
-    printf("\nHORÁRIO DO FILE: 19h - PREÇO DO INGRESSO: R$20");
+    printf("============= CINEMA =============");
+    printf("\nHORÃRIO DO FILME: 19h - PREÃ‡O DO INGRESSO: R$20");
     printf("\n----------------------------------------------");
-    printf("\nQuanto dinheiro você tem? R$");
+    printf("\nQuanto dinheiro vocÃª tem? R$");
     scanf("%f", &d);
-    printf("Agora são %i:%i horas.", h, m);
+    printf("Agora sÃ£o %i:%i horas.", h, m);
     if(d>=20) {
-        printf("\nVocê consegue comprar o ingresso!");
+        printf("\nVocÃª consegue comprar o ingresso!");
 
     }else{
-        printf("\nVocê não consegue comprar o ingresso...");
+        printf("\nVocÃª nÃ£o consegue comprar o ingresso...");
     }
-
-
-
-
-
 }
