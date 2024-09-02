@@ -3,11 +3,11 @@
 int main(){
     setlocale(0,"Portuguese");
     float NumCarros, ValVendas, SalFixo, ValCarroV, SalFinal;
-    printf("Número de carros vendidos: ");
+    printf("NÃºmero de carros vendidos: ");
     scanf("%f", &NumCarros);
     printf("Valor total das vendas: ");
     scanf("%f", &ValVendas);
-    printf("Salário Fixo: ");
+    printf("SalÃ¡rio Fixo: ");
     scanf("%f", &SalFixo);
     printf("Valor a receber por carro vendido: ");
     scanf("%f", &ValCarroV);
