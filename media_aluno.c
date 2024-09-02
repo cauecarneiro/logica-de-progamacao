@@ -15,5 +15,5 @@ int main(){
 
     md = (n1 * 2) + (n2 * 3) + (n3 * 5) / 10;
 
-    printf("\nMédia final = %0.f", md);
+    printf("\nMÃ©dia final = %0.f", md);
 }
