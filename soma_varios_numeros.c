@@ -4,7 +4,7 @@
 int main(int argc, char *argv[]) {
     setlocale(0,"Portuguese");
     int n1,n2,n3,n4,s;
-    printf("Digita quantro números:\n");
+    printf("Digita quantro nÃºmeros:\n");
     scanf("%i", &n1);
     scanf("%i", &n2);
     scanf("%i", &n3);
