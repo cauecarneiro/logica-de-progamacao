@@ -3,7 +3,7 @@
 int main(){
     setlocale(0,"Portuguese");
     float custoF, percDist, imp, valorF;
-    printf("Insira o custo de f·brica do carro: ");
+    printf("Insira o custo de f√°brica do carro: ");
     scanf("%f", &custoF);
     percDist = custoF*28/100;
     imp = custoF*45/100;
