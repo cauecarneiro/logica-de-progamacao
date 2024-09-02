@@ -6,9 +6,9 @@ int main(int argc, char *argv[]){
     setlocale(0,"Portuguese");
     int i, ant1 = 0, ant2 = 1, atual, pos;
 
-    printf("Série de Fibonacci: ");
+    printf("SÃ©rie de Fibonacci: ");
     
-    printf("\nPosição: ");
+    printf("\nPosiÃ§Ã£o: ");
     scanf("%i", &pos);
 	
 	printf("%d ", ant1);
