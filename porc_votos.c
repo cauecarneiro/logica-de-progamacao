@@ -7,7 +7,7 @@ int main(){
     scanf("%i", &votoB);
     printf("Total de votos nulos: ");
     scanf("%i", &votoN);
-    printf("Total de votos v·lidos: ");
+    printf("Total de votos v√°lidos: ");
     scanf("%i", &votoV);
     total = votoB + votoN + votoV;
     printf("Total: %i", total);
@@ -19,5 +19,5 @@ int main(){
     printf("\nPorcentagem de Nulos: %i%%", porcN);
 
     porcV = votoV*total/100;
-    printf("\nPorcentagem de V·lidos: %i%%", porcV);
+    printf("\nPorcentagem de V√°lidos: %i%%", porcV);
 }
