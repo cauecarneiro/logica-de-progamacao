@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
     float n1, n2, res;
     int op;
     printf("==== CALCULADORA ====");
-    printf("\n\nDigite 1 para soma\nDigite 2 para subtrair\nDigite 3 para multiplicar\nDigite 4 para divis„o\n");
+    printf("\n\nDigite 1 para soma\nDigite 2 para subtrair\nDigite 3 para multiplicar\nDigite 4 para divis√£o\n");
     scanf("%i", &op);
     printf("Digite o primeiro valor: ");
     scanf("%f", &n1);
@@ -21,17 +21,17 @@ int main(int argc, char *argv[]){
 
     if(op == 2){
         res = n1 - n2;
-        printf("SubtraÁ„o: %.1f", res);
+        printf("Subtra√ß√£o: %.1f", res);
     }
 
     if(op == 3){
         res = n1 * n2;
-        printf("MultiplicaÁ„o: %1.f", res);
+        printf("Multiplica√ß√£o: %1.f", res);
     }
 
     if(op == 4){
         res = n1 / n2;
-        printf("Divis„o: %1.f", res);
+        printf("Divis√£o: %1.f", res);
     }
 
 
