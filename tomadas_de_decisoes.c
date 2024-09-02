@@ -19,18 +19,18 @@ int main(){
     scanf("%c", &td);
     fflush(stdin);
     
-	printf("Est· chovendo? ");
+	printf("Est√° chovendo? ");
     scanf("%c", &ec);
     fflush(stdin);
     
-	printf("… perto? ");
+	printf("√â perto? ");
     scanf("%c", &ep);
     fflush(stdin);
     
     if(cd == 'N' && est == 'S' && td == 'S' && ec == 'N' || cd == 'N' && est == 'S' && td == 'S' && ep == 'N') {
     	printf("Vou!");
 	}else if (cd == 'S' && est == 'N' && ec == 'S' && ep == 'N'){
-		printf("N„o vou!");
+		printf("N√£o vou!");
 	}else{
 		printf("Digite algo valido");
 	}
