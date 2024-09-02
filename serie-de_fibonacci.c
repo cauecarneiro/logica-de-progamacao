@@ -6,7 +6,7 @@ int main(int argc, char *argv[]){
     setlocale(0,"Portuguese");
     int i, ant1 = 0, ant2 = 1, atual;
 
-    printf("Série de Fibonacci: ");
+    printf("SÃ©rie de Fibonacci: ");
     printf("%d ", ant1);
 
 
