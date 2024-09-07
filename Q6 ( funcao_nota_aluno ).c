@@ -1,0 +1,64 @@
+		#include <stdio.h>
+		#include <stdlib.h>
+		#include <locale.h>
+		
+		float funcao (float n1, float n2, float n3, char letra){
+			int i;
+			
+			if(letra == 'A'){
+				float media_ari;
+				media_ari = (n1+n2+n3)/3;
+				return media_ari;
+			}
+				
+								
+			if(letra == 'P'){
+				float media_pond;
+				media_pond = (n1*2 + n2*3 +n3*5) / 10;
+				return media_pond;
+				}
+					
+					
+			if(letra == 'H'){
+				float media_harm;
+				media_harm = 3/(1/n1 + 1/n2+ 1/n3);
+				return media_harm;
+				}
+		}
+									
+		int main(){
+			setlocale(0,"Portuguese");
+			float num1, num2, num3, i;
+			char media;
+			
+			printf("Nota 1: ");
+			scanf("%f", &num1);
+			fflush(stdin);
+			
+			printf("Nota 2: ");
+			scanf("%f", &num2);
+			fflush(stdin);
+			
+			printf("Nota 3: ");
+			scanf("%f", &num3);
+			fflush(stdin);
+			
+			printf("Letra: ");
+			scanf("%c", &media);
+			
+			if(media == 'A'){
+				printf("Média Aritimética: %.2f", funcao(num1, num2, num3, media));
+			}
+			
+			if(media == 'P'){
+				printf("Média Ponderada: %.2f", funcao(num1, num2, num3, media));
+			}
+			
+			if(media == 'H'){
+				printf("Média Harmônica: %.2f", funcao(num1, num2, num3, media));
+			}
+				
+			
+			return 0;
+		}
+			

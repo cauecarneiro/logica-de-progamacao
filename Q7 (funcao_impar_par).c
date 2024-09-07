@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int numero (int n){
+	if(n%2==0)
+		return 1;
+	else 
+		return 0;
+}
+
+int main(){
+	setlocale(0,"Portuguese");
+	int num;
+	
+	printf("Digite um número que eu retornei 0 para ímpar e 1 para par\n");
+	printf("Digite o número: ");
+	scanf("%i", &num);
+	
+	printf("%i", numero(num));
+}
