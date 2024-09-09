@@ -13,8 +13,8 @@ int main(){
 	setlocale(0,"Portuguese");
 	int num;
 	
-	printf("Digite um número que eu retornei 0 para ímpar e 1 para par\n");
-	printf("Digite o número: ");
+	printf("Digite um nÃºmero que eu retornei 0 para Ã­mpar e 1 para par\n");
+	printf("Digite o nÃºmero: ");
 	scanf("%i", &num);
 	
 	printf("%i", numero(num));
