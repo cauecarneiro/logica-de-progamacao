@@ -47,15 +47,15 @@
 			scanf("%c", &media);
 			
 			if(media == 'A'){
-				printf("Média Aritimética: %.2f", funcao(num1, num2, num3, media));
+				printf("MÃ©dia AritimÃ©tica: %.2f", funcao(num1, num2, num3, media));
 			}
 			
 			if(media == 'P'){
-				printf("Média Ponderada: %.2f", funcao(num1, num2, num3, media));
+				printf("MÃ©dia Ponderada: %.2f", funcao(num1, num2, num3, media));
 			}
 			
 			if(media == 'H'){
-				printf("Média Harmônica: %.2f", funcao(num1, num2, num3, media));
+				printf("MÃ©dia HarmÃ´nica: %.2f", funcao(num1, num2, num3, media));
 			}
 				
 			
