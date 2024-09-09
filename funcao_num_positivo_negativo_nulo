@@ -17,8 +17,8 @@ int main(){
 	setlocale(0,"Portuguese");
 	int num;
 	
-	printf("Digite um número que eu retornei 0 para n=0, 1 para n poritivo e -1 para n negativo\n");
-	printf("Digite o número: ");
+	printf("Digite um nÃºmero que eu retornei 0 para n=0, 1 para n poritivo e -1 para n negativo\n");
+	printf("Digite o nÃºmero: ");
 	scanf("%i", &num);
 	
 	printf("%i", numero(num));
