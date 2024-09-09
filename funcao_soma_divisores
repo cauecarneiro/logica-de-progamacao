@@ -6,11 +6,11 @@ int postivo (){
 	int n;
 	
 	do{
-		printf("Digite um número positivo: ");
+		printf("Digite um nÃºmero positivo: ");
 		scanf("%d", &n);
 		
 		if(n<=0){
-			printf("Número inválido, digite um número positivo");
+			printf("NÃºmero invÃ¡lido, digite um nÃºmero positivo");
 		}
 	} while(n<=0);
 	
@@ -31,12 +31,12 @@ int main(){
 	int vet[5], i;
 	
 	for(i=1; i<=5; i++){
-		printf("Digite o %iº número: ", i);
+		printf("Digite o %iÂº nÃºmero: ", i);
 		scanf("%i", &vet[i]);
 	}
 	
 	for(i=1; i<=5; i++){
-		printf("\nSoma dos divisores do %iº número: %i", i, SomaDivisores(vet[i]));
+		printf("\nSoma dos divisores do %iÂº nÃºmero: %i", i, SomaDivisores(vet[i]));
 	}
 }
 
