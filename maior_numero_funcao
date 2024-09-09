@@ -13,13 +13,13 @@ int main(){
 	setlocale(0,"Portuguese");
 	float x, y, m;
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%f", &x);
 	
-	printf("Digite outro número: ");
+	printf("Digite outro nÃºmero: ");
 	scanf("%f", &y);
 	
 	m = maior(x,y);
 	
-	printf("Maior número entre %.2f e %.2f: %.2f", x, y, m);
+	printf("Maior nÃºmero entre %.2f e %.2f: %.2f", x, y, m);
 }
