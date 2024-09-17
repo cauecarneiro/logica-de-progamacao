@@ -6,13 +6,13 @@ int main(){
 	setlocale(0,"Portuguese");
 	int num;
 	
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d", &num);
 	
 	if(num % 2 == 0){
-		printf("%d é PAR", num);
+		printf("%d Ã© PAR", num);
 	}
 	else{
-		printf("%d é IMPAR", num);
+		printf("%d Ã© IMPAR", num);
 	}
 }
