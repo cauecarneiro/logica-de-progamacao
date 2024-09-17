@@ -8,12 +8,12 @@ int main (){
 
     printf("Insira a nota do trabalho: ");
     scanf("%f", &nt);
-    printf("Insira a nota da avaliação: ");
+    printf("Insira a nota da avaliaÃ§Ã£o: ");
     scanf("%f", &na);
     printf("Insira a nota do exame: ");
     scanf("%f", &ne);
     mp = (nt*2 + na*3 +ne*5) / 10;
-    printf("Média ponderada: %1.f", mp);
+    printf("MÃ©dia ponderada: %1.f", mp);
 
     if (mp>=8){
         printf("\nConceito: A");
