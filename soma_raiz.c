@@ -7,7 +7,7 @@ int main(){
 	setlocale(0,"Portuguese");
 	int op;
 	
-	printf("1-Somar dois números\n2-Raiz quadrada de um número\nDigite a opcão desejada: ");
+	printf("1-Somar dois nÃºmeros\n2-Raiz quadrada de um nÃºmero\nDigite a opcÃ£o desejada: ");
 	scanf("%d", &op);
 	
 	if(op==1){
@@ -18,7 +18,7 @@ int main(){
 	}
 	else{
 		int n, raiz;
-		printf("Digite um número: ");
+		printf("Digite um nÃºmero: ");
 		scanf("%d", &n);
 		raiz = sqrt(n);
 		printf("Raiz quadrada de %d = %d", n, raiz);
