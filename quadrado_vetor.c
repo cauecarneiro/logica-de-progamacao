@@ -1,29 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <locale.h>
+#include <math.h>
 
 int main(){
-	setlocale(0,"Portuguese");
+	int vet[10], vetquad[10], i;
 	
-	int vet[6], vet2[6], i;
-	
-	for(i=1;i<=6;i++){
-		printf("Digite um número: ");
+	for(i=0;i<10;i++){
+		printf("Insira um valor para o vetor [%d]: ", i);
 		scanf("%d", &vet[i]);
-	}
-	
-	for(i=1;i<=6;i++){
-		printf("%d ", vet[i]);
 
 	}
 	
-	for(i=1;i<=6;i++){
-		vet2[i]=pow(vet[i], 2);
-	}
+	printf("Vetor ao quadrado:\n");
 	
-	printf("\n");
-	for(i=1;i<=6; i++){
-		printf("%d ", vet2[i]);
+	for(i=0;i<10;i++){
+		vetquad[i]=pow(vet[i], 2);
+		printf("%d ", vetquad[i]);
 	}
 }
