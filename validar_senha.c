@@ -26,10 +26,10 @@ int main() {
     scanf("%s", senha);
 
     if (senha_valida(senha)) {
-        printf("Senha válida.\n");
+        printf("Senha vÃ¡lida.\n");
     } else {
-        printf("Senha inválida.\n");
-        printf("A senha tem que ter entre 8 e 6 digitos, com uma letra minuscula e outra maiuscula e pelo menos um número.");
+        printf("Senha invÃ¡lida.\n");
+        printf("A senha tem que ter entre 8 e 6 digitos, com uma letra minuscula e outra maiuscula e pelo menos um nÃºmero.");
     }
 
     return 0;
