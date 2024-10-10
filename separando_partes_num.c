@@ -14,13 +14,13 @@ int main() {
     int parteInteira;
     float partefracionaria;
 
-    printf("Digite um número real: ");
+    printf("Digite um nÃºmero real: ");
     scanf("%f", &num);
 
     fracionaria(num, &parteInteira, &partefracionaria);
 
     printf("Parte inteira: %d\n", parteInteira);
-    printf("Parte fracionária: %.2f\n", partefracionaria);
+    printf("Parte fracionÃ¡ria: %.2f\n", partefracionaria);
 
     return 0;
 }
