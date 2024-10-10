@@ -42,7 +42,7 @@ int main() {
     if (contemSubstring(s1, s2)) {
         printf("A substring \"%s\" existe em \"%s\".\n", s2, s1);
     } else {
-        printf("A substring \"%s\" n„o existe em \"%s\".\n", s2, s1);
+        printf("A substring \"%s\" n√£o existe em \"%s\".\n", s2, s1);
     }
 
     return 0;
